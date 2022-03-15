@@ -30,7 +30,7 @@
   padding: 8px 16px;
 }
 
-.starWars {
+.starWars__content {
   margin: 1rem;
   display: flex;
   justify-content: space-between;
@@ -54,4 +54,45 @@
 
 .products__buttonCta img{
     padding-left: 0.25rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.card{
+    width: 156px;
+    margin-top: 1rem;
+    
+}
+
+.card:nth-child(5), .card:nth-child(6){
+    display: none;
+}
+
+.card__image{
+    width: 156px;
+}
+
+.card__title{
+    color: var(--dark-grey);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0;
+}
+
+.card__price{
+    color: var(--dark-grey);
+    font-weight: 600;
+    padding: 0.25rem 0;
+}
+
+.card__button{
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 600;
+    padding: 0.25rem 0;
 }
