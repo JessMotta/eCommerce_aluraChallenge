@@ -1,0 +1,9 @@
+.button__cta{
+    background-color: var(--blue);
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 16px;
+    margin: 8px 16px;
+}

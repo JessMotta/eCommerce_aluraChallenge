@@ -1,3 +1,10 @@
+:root {
+  --blue: #2a7ae4;
+  --light-blue: #eaf2fd;
+  --dark-grey: #464646;
+  --light-grey: #a2a2a2;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
