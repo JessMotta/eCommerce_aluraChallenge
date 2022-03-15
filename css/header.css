@@ -1,0 +1,32 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.header__logo{
+    width: calc(33.33vw - 16px);
+}
+
+.header__search{
+    display: none;
+}
+
+.header__searchButton{
+    background: transparent url('../assets/icons/search_icon.svg') no-repeat;
+    background-size: cover;
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    order: 2;
+}
+
+.header__buttonLogin{
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 0.75rem 3rem;
+    /* font: ; */
+    
+}
