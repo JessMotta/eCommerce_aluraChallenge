@@ -10,6 +10,10 @@
 }
 
 .header__search {
+  order: 2;
+}
+
+.header__input {
   display: none;
 }
 
@@ -19,7 +23,6 @@
   border: none;
   width: 1.5rem;
   height: 1.5rem;
-  order: 2;
 }
 
 .header__buttonLogin {
@@ -41,37 +44,48 @@
   }
 
   .header__search {
-    display: inline;
+    width: fit-content;
+    order: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 33.33vw;
+  }
+
+  .header__input {
+    display: block;
     border: none;
     background-color: var(--soft-grey);
-    /* height: 40px; */
+    width: 25vw;
     padding: 0.75rem 3rem 0.75rem 1rem;
     border-radius: 20px;
-    margin-right: 8.375rem;
     position: relative;
   }
 
-  .header__search::placeholder {
+  .header__input::placeholder {
     font-family: "Raleway", sans-serif;
     font-size: 0.875rem;
     font-weight: 400;
   }
 
   .header__searchButton {
-    order: 0;
     position: absolute;
-    margin-left: calc(23rem - 1rem);
+    margin-right: 1rem;
+    /* margin-left: calc(23rem - 1rem); */
   }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
-  .header__search {
-    padding: 0.75rem 5rem 0.75rem 1rem;
-    margin-right: 22rem;
+
+  .header__search{
+    margin-right: 25vw;
   }
 
-  .header__searchButton {
-      margin-left: calc(25rem - 1rem);
+  .header__input {
+    padding: 0.75rem 5rem 0.75rem 1rem;
+    /* margin-right: 22rem; */
   }
+
+ 
 }

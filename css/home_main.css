@@ -125,6 +125,9 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url("../assets/img/hero.png");
+  }
   .card:nth-child(5),
   .card:nth-child(6) {
     display: block;
