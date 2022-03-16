@@ -31,10 +31,9 @@
 }
 
 /* TABLET */
-
 @media screen and (min-width: 768px) {
   .header {
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 1rem 2rem;
   }
   .header__logo {
@@ -45,10 +44,11 @@
     display: inline;
     border: none;
     background-color: var(--soft-grey);
+    /* height: 40px; */
     padding: 0.75rem 3rem 0.75rem 1rem;
     border-radius: 20px;
+    margin-right: 8.375rem;
     position: relative;
-    margin-left: 2rem;
   }
 
   .header__search::placeholder {
@@ -60,10 +60,18 @@
   .header__searchButton {
     order: 0;
     position: absolute;
-    margin-left: calc(360px - 1rem);
+    margin-left: calc(23rem - 1rem);
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .header__search {
+    padding: 0.75rem 5rem 0.75rem 1rem;
+    margin-right: 22rem;
   }
 
-  .header__buttonLogin {
-    margin-left: 8.375rem;
+  .header__searchButton {
+      margin-left: calc(25rem - 1rem);
   }
 }

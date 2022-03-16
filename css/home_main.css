@@ -29,9 +29,8 @@
 .hero__contentSubtitle {
   font-weight: 600;
   font-size: 0.875rem;
-  padding: 0.5rem 0 0 1rem ;
+  padding: 0.5rem 0 0 1rem;
 }
-
 
 .starWars {
   margin: 1rem 0;
@@ -108,19 +107,26 @@
   margin: 1rem 0;
 }
 
-
 /* TABLET */
 
 @media screen and (min-width: 768px) {
   .hero__content {
-    padding:  10.0625rem 1rem 2rem;
+    padding: 10.0625rem 1rem 2rem;
   }
 
   .hero__contentTitle {
     font-size: 3.25rem;
   }
-  .hero__contentSubtitle{
+  .hero__contentSubtitle {
     font-size: 1.375rem;
     padding: 1rem 0 1.5rem;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .card:nth-child(5),
+  .card:nth-child(6) {
+    display: block;
   }
 }
