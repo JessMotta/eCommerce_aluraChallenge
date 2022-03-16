@@ -55,4 +55,10 @@
     font-size: 1rem;
     font-weight: 400;
   }
-  
+
+    /* TABLET */
+@media screen and (min-width: 768px) {
+  .contact{
+    width: 75vw;
+  }
+}
