@@ -129,10 +129,7 @@
 }
 
 .contact {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  margin: 2rem 0.75rem 0.5rem;
 }
 
 .contact__title {
@@ -141,45 +138,61 @@
   font-weight: 700;
 }
 
+.contact__form {
+ padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form label {
+  position: absolute;
+  z-index: 1;
+  margin: 0.75rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: var(--light-grey);
+}
 .contact__name {
   border: none;
-  margin: 0.5rem 0 1rem 0;
-  height: 56px;
+  /* margin: 0.5rem 0 1rem 0; */
+  /* height: 56px; */
   color: var(--dark-grey);
   font-size: 1rem;
   font-weight: 400;
-  padding: 0 0.75rem; 
+  padding: 1.75rem 0.75rem 0.5rem;
+  position: relative;
 }
 
-.contact__name::placeholder{
-    color: var(--light-grey);
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+.contact__name::placeholder {
+  color: var(--light-grey);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .contact__message {
   border: none;
   margin: 0.5rem 0 1rem 0;
-  height: 82px;
+  /* height: 82px; */
+  padding: 1rem 0.75rem 2.875rem;
+  resize: none;
+  font-family: "Raleway", sans-serif;
 }
 
-.contact__message:focus{
-    border-color: var(--blue);
+.contact__message:focus {
+  border-color: var(--blue);
 }
 
-.contact__message::placeholder{
-    color: var(--light-grey);
-    padding: 1rem 0.75rem;
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+.contact__message::placeholder {
+  color: var(--light-grey);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-.copy{
-    background-color: white;
-    text-align: center;
-    padding: 2rem 3.9375rem;
-    font-size: 1rem;
-    font-weight: 500;
+.copy {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 3.9375rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
