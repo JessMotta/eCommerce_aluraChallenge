@@ -7,3 +7,11 @@
     padding: 0.75rem 1rem;
     margin: 0.5rem 0;
 }
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+    .button__cta{
+        margin: 1rem 0;
+    }
+}
