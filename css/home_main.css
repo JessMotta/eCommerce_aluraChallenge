@@ -8,33 +8,37 @@
     url("../assets/img/hero.png");
   background-size: cover;
   background-position: center;
-  height: 192px;
   color: white;
 
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
-.hero__title {
+.hero__content {
+  padding: 4.875rem 1rem 1rem;
+}
+
+.hero__contentTitle {
   font-weight: 700;
   font-size: 1.375rem;
-  padding: 0 16px;
 }
 
-.hero__subtitle {
+.hero__contentSubtitle {
   font-weight: 600;
   font-size: 0.875rem;
-  padding: 8px 16px;
+  padding: 0.5rem 0 1rem ;
 }
 
+
 .starWars {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .products__content {
+  padding-top: 1rem;
   margin: 1rem;
   display: flex;
   justify-content: space-between;
@@ -101,6 +105,5 @@
 }
 
 .consoles {
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
-
