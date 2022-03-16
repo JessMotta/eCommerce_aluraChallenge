@@ -10,7 +10,7 @@
 
 /* TABLET */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .button__cta{
         margin: 1rem 0;
     }

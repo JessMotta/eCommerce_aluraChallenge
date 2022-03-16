@@ -111,7 +111,7 @@
 
 /* TABLET */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero__content {
     padding:  10.0625rem 1rem 2rem;
   }
