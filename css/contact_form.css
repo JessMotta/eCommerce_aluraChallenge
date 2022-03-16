@@ -65,3 +65,11 @@
     width: 75vw;
   }
 }
+
+/* TABLET */
+@media screen and (min-width: 1024px) {
+  .contact {
+    width: 50vw;
+    margin-top: 0;
+  }
+}
