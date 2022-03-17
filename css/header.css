@@ -28,10 +28,15 @@
 
 .header__buttonLogin {
   background-color: transparent;
-  border: 1px solid #2a7ae4;
-  color: #2a7ae4;
+  border: 1px solid var(--blue);
+  color: var(--blue);
   padding: 0.75rem 3rem;
   text-decoration: none;
+}
+
+.header__buttonLogin:hover{
+  background-color: var(--blue);
+  color: white;
 }
 
 /* TABLET */
