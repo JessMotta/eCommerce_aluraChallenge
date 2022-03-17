@@ -18,7 +18,7 @@
 }
 
 .hero__content {
-  padding: 4.875rem 1rem 1rem;
+  padding: 4.875rem 1rem 1rem 1rem;
 }
 
 .hero__contentTitle {
@@ -29,7 +29,7 @@
 .hero__contentSubtitle {
   font-weight: 600;
   font-size: 0.875rem;
-  padding: 0.5rem 0 0 1rem;
+  padding: 0.5rem 0 1rem 0;
 }
 
 .products {
