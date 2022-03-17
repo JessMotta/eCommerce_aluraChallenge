@@ -1,13 +1,20 @@
+@import url('./header.css');
+@import url('./buttons.css');
+@import url('./footer.css');
+
 :root {
   --blue: #2a7ae4;
   --light-blue: #eaf2fd;
   --dark-grey: #464646;
   --light-grey: #a2a2a2;
-  --soft-grey: #F5F5F5
+  --soft-grey: #F5F5F5;
 
-  
+  --font-raleway: "Raleway", sans-serif;  
 }
+
+
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-raleway)
 }
+

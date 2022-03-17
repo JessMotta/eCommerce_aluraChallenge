@@ -23,6 +23,7 @@
   border: none;
   width: 1.5rem;
   height: 1.5rem;
+  cursor: pointer;
 }
 
 .header__buttonLogin {
@@ -63,7 +64,7 @@
   }
 
   .header__input::placeholder {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-raleway);
     font-size: 0.875rem;
     font-weight: 400;
   }
