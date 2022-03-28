@@ -7,14 +7,20 @@
 /* .product__content{
 
 } */
+@import url('../css/cards.css');
+
 body{
     color: var(--dark-grey);
 }
 
-.product__image{
-    height: 192px;
-}
+/* .product__image{
+   width: 100%;
+   max-height: 192px;
+} */
 
+.product{
+    padding-bottom: 1rem;
+}
 .product__content{
     margin: 1rem;
 }
@@ -33,4 +39,10 @@ body{
 .product__info{
     font-size: 0.875rem;
     font-weight: 400;
+}
+
+.similarProducts__title{
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin: 1rem 1rem 0 1rem;
 }
