@@ -94,6 +94,9 @@
   .hero {
     background-image: url("../assets/img/hero.png");
   }
+  .hero__content{
+    padding: 10.0625rem 152px 2rem;
+  }
   .products{
     margin: 0 152px;
   }

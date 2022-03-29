@@ -139,14 +139,16 @@
     padding: 2rem 0;
     margin: 0 152px;
   }
+
   .footer__content {
     flex-direction: row;
     justify-content: space-between;
-    width: 50vw;
+    width: 40vw;
   }
 
   .footer__options {
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
   }
 
   .footer__contact {
