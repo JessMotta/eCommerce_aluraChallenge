@@ -13,9 +13,9 @@
   padding: 0.25rem 0;
 }
 
-.footer__options{
+.footer__options {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 .footer__links {
@@ -46,24 +46,23 @@
   position: absolute;
   z-index: 1;
   margin: 0.75rem;
-  font-family:  var(--font-raleway);
+  font-family: var(--font-raleway);
   font-weight: 400;
   color: var(--light-grey);
 }
 
-.footer__contactEmail--label{
+.footer__contactEmail--label {
   position: absolute;
   z-index: 1;
   margin-top: 5rem;
   margin-left: 0.75rem;
-  font-family:  var(--font-raleway);
+  font-family: var(--font-raleway);
   font-weight: 400;
   color: var(--light-grey);
 }
 
-
-
-.footer__contactName, .footer__contactEmail {
+.footer__contactName,
+.footer__contactEmail {
   border: none;
   color: var(--dark-grey);
   font-size: 1rem;
@@ -73,9 +72,10 @@
   margin-bottom: 1rem;
 }
 
-.footer__contactName::placeholder, .footer__contactEmail::placeholder {
+.footer__contactName::placeholder,
+.footer__contactEmail::placeholder {
   color: var(--light-grey);
-  font-family:  var(--font-raleway);
+  font-family: var(--font-raleway);
   font-size: 1rem;
   font-weight: 400;
 }
@@ -85,7 +85,7 @@
   margin: 0.5rem 0 0.5rem 0;
   padding: 1rem 0.75rem 2.875rem;
   resize: none;
-  font-family:  var(--font-raleway);
+  font-family: var(--font-raleway);
 }
 
 .footer__contactMessage:focus {
@@ -124,7 +124,7 @@
     padding: 0 1rem 0 0;
   }
 
-  .footer__options{
+  .footer__options {
     align-items: flex-start;
   }
 
@@ -133,22 +133,24 @@
   }
 }
 
-
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
-
+  .footer__structure {
+    padding: 2rem 0;
+    margin: 0 152px;
+  }
   .footer__content {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50vw;
   }
-  .footer__options{
-    margin-left: 1rem;
+
+  .footer__options {
+    margin-right: 2rem;
   }
 
   .footer__contact {
     width: 50vw;
-    margin-top: 0;
+    margin: 0;
   }
-
 }
