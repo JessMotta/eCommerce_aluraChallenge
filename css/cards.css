@@ -46,4 +46,7 @@
   .card:nth-child(6) {
     display: block;
   }
+  .cards {
+    padding: 0;
+  }
 }
