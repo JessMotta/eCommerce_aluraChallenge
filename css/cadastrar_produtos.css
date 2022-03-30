@@ -1,0 +1,16 @@
+@import url("../css/base.css");
+
+.products{
+    background-color: var(--soft-grey);
+}
+
+.products__content{
+    padding: 2rem;
+}
+
+.products__title{
+    padding-bottom: 1rem;
+    color: var(--dark-grey);
+    font-weight: 700;
+    font-size: 1.375rem;
+}

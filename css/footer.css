@@ -143,12 +143,11 @@
   .footer__content {
     flex-direction: row;
     justify-content: space-between;
-    width: 40vw;
+    width: 50vw;
   }
 
   .footer__options {
-    margin-left: 1rem;
-    margin-right: 5rem;
+    padding: 0 112px 0 112px;
   }
 
   .footer__contact {
