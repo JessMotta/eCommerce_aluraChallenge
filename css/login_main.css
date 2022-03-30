@@ -18,6 +18,14 @@
   flex-direction: column;
   align-items: center;
 }
+.login__email--label {
+  position: absolute;
+  z-index: 1;
+  margin: 0.75rem;
+  font-family: var(--font-raleway);
+  font-weight: 400;
+  color: transparent;
+}
 
 .login__input {
   border: none;
@@ -43,9 +51,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /* .login__content{
-  
-} */
   .login__input {
     width: 423px;
   }

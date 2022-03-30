@@ -26,9 +26,11 @@
         <section class="login">
             <h2 class="login__title">Iniciar Sessão</h2>
             <div class="login__content">
-                <input class="login__input" type="email" placeholder="Escreva seu email">
+                <label class="sr-only" for="email">Escreva seu email</label>
+                <input id="email" class="login__input" type="email" placeholder="Escreva seu email">
+                <label class="sr-only" for="email">Escreva sua senha</label>
                 <input class="login__input" type="password" placeholder="Escreva sua senha">
-                <a class="login__button button__cta" href="#">Entrar</a>
+                <a aria-label="Entrar" class="login__button button__cta" href="#">Entrar</a>
             </div>     
         </section>
     </main>
