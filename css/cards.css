@@ -11,11 +11,6 @@
   margin-top: 1rem;
 }
 
-.card:nth-child(5),
-.card:nth-child(6) {
-  display: none;
-}
-
 .card__image {
   width: 156px;
 }
@@ -42,11 +37,7 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
-  .card:nth-child(5),
-  .card:nth-child(6) {
-    display: block;
-  }
-  .cards {
+   .cards {
     padding: 0;
   }
 }

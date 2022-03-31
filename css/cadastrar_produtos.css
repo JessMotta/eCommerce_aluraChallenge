@@ -1,16 +1,18 @@
 @import url("../css/base.css");
+@import url("../cards.css");
 
-.products{
+.addProducts{
     background-color: var(--soft-grey);
 }
 
-.products__content{
+.addProducts__content{
     padding: 2rem;
 }
 
-.products__title{
+.addProducts__title{
     padding-bottom: 1rem;
     color: var(--dark-grey);
     font-weight: 700;
     font-size: 1.375rem;
 }
+

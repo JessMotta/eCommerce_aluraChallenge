@@ -1,5 +1,5 @@
-@import url('./base.css');
-@import url('./cards.css');
+@import url("./base.css");
+@import url("./cards.css");
 
 .hero {
   background: rgba(0, 0, 0, 0.2);
@@ -69,6 +69,11 @@
   padding-left: 0.25rem;
 }
 
+.card:nth-child(5),
+.card:nth-child(6) {
+  display: none;
+}
+
 .consoles {
   margin: 1rem 0;
 }
@@ -94,14 +99,18 @@
   .hero {
     background-image: url("../assets/img/hero.png");
   }
-  .hero__content{
+  .hero__content {
     padding: 10.0625rem 152px 2rem;
   }
-  .products{
+  .products {
     margin: 0 152px;
   }
 
- .products__content{
-   margin: 1rem 0;
- }
+  .products__content {
+    margin: 1rem 0;
+  }
+  .card:nth-child(5),
+  .card:nth-child(6) {
+    display: block;
+  }
 }

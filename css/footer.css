@@ -147,6 +147,7 @@
   }
 
   .footer__options {
+    width: max-content;
     padding: 0 112px 0 112px;
   }
 
