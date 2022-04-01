@@ -1,5 +1,5 @@
 @import url("../css/base.css");
-@import url("../cards.css");
+@import url("../css/cards.css");
 
 .addProducts{
     background-color: var(--soft-grey);
@@ -16,3 +16,6 @@
     font-size: 1.375rem;
 }
 
+/* .products{
+    display: flex;
+} */
